@@ -1,0 +1,17 @@
+# إعدادات نشر Netlify - سوق الكويت القديم
+# Netlify deployment configuration - Old Kuwait Market
+
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# ملاحظة: توجيه صفحة 404 المخصصة معرّف في ملف _redirects

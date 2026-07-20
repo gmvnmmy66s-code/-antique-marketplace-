@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول | سوق الكويت القديم</title>
+    <meta name="description" content="سجّل دخولك إلى حسابك في سوق الكويت القديم لمتابعة مشترياتك وإعلاناتك.">
+    <meta name="keywords" content="سوق الكويت القديم, تحف كويتية, تراث الكويت, دلال قديمة, سدو, عملات قديمة, مزادات تراثية">
+    <meta name="author" content="سوق الكويت القديم">
+    <!-- Open Graph / SEO -->
+    <meta property="og:title" content="تسجيل الدخول | سوق الكويت القديم">
+    <meta property="og:description" content="سجّل دخولك إلى حسابك في سوق الكويت القديم لمتابعة مشترياتك وإعلاناتك.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_KW">
+    <link rel="canonical" href="https://oldkuwaitmarket.example/login.html">
+    <!-- الأيقونة -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏺</text></svg>">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- التنسيقات الرئيسية -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- ===== الشريط العلوي ===== -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-links">
+                <a href="about.html"><span data-ar="من نحن" data-en="About Us">من نحن</span></a>
+                <a href="contact.html"><span data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</span></a>
+                <a href="add-listing.html"><i class="fa-solid fa-plus"></i> <span data-ar="أضف إعلانك" data-en="Post an Ad">أضف إعلانك</span></a>
+            </div>
+            <div class="top-bar-tools">
+                <span><i class="fa-solid fa-phone"></i> 2222-1234 (965+)</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== الهيدر الرئيسي ===== -->
+    <header class="main-header">
+        <div class="container">
+            <button class="hamburger" aria-label="القائمة"><i class="fa-solid fa-bars"></i></button>
+
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-mosque"></i>
+                <span>
+                    سوق الكويت القديم
+                    <span class="small">Old Kuwait Market</span>
+                </span>
+            </a>
+
+            <form class="header-search" id="headerSearchForm">
+                <input type="text" id="headerSearchInput" placeholder="ابحث عن دلة، سدو، ساعة قديمة..." autocomplete="off">
+                <button type="submit" aria-label="بحث"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <div class="search-suggestions" id="searchSuggestions"></div>
+            </form>
+
+            <nav class="main-nav">
+                <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+                <a href="products.html" data-ar="المنتجات" data-en="Products">المنتجات</a>
+                <a href="categories.html" data-ar="الأقسام" data-en="Categories">الأقسام</a>
+                <a href="search.html" data-ar="البحث" data-en="Search">البحث</a>
+                <a href="contact.html" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+            </nav>
+
+            <div class="header-icons">
+                <button class="icon-btn theme-toggle" aria-label="تبديل الوضع الليلي"><i class="fa-solid fa-moon"></i></button>
+                <button class="lang-toggle">EN</button>
+                <a href="favorites.html" class="icon-btn" aria-label="المفضلة">
+                    <i class="fa-regular fa-heart"></i>
+                    <span class="badge-count fav-count">0</span>
+                </a>
+                <a href="cart.html" class="icon-btn" aria-label="السلة">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="badge-count cart-count">0</span>
+                </a>
+                <a href="login.html" class="icon-btn auth-guest" aria-label="تسجيل الدخول"><i class="fa-regular fa-user"></i></a>
+                <a href="profile.html" class="icon-btn auth-user" style="display:none" aria-label="حسابي"><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== القائمة الجانبية للجوال ===== -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-close"><i class="fa-solid fa-xmark"></i></div>
+        <a href="index.html" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+        <a href="products.html" data-ar="المنتجات" data-en="Products">المنتجات</a>
+        <a href="categories.html" data-ar="الأقسام" data-en="Categories">الأقسام</a>
+        <a href="search.html" data-ar="البحث" data-en="Search">البحث</a>
+        <a href="favorites.html" data-ar="المفضلة" data-en="Favorites">المفضلة</a>
+        <a href="cart.html" data-ar="السلة" data-en="Cart">السلة</a>
+        <a href="add-listing.html" data-ar="أضف إعلانك" data-en="Post an Ad">أضف إعلانك</a>
+        <a href="profile.html" data-ar="حسابي" data-en="My Account">حسابي</a>
+        <a href="login.html" class="auth-guest" data-ar="تسجيل الدخول" data-en="Sign In">تسجيل الدخول</a>
+        <a href="about.html" data-ar="من نحن" data-en="About Us">من نحن</a>
+        <a href="contact.html" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a>
+    </div>
+    <div class="overlay"></div>
+    <main>
+    <section class="form-page">
+        <div class="form-card">
+            <div class="form-icon"><i class="fa-solid fa-right-to-bracket"></i></div>
+            <h1 data-ar="تسجيل الدخول" data-en="Sign In">تسجيل الدخول</h1>
+            <p class="subtitle" data-ar="مرحبًا بعودتك! سجّل دخولك لمتابعة إعلاناتك ومشترياتك." data-en="Welcome back! Sign in to manage your listings and purchases.">مرحبًا بعودتك! سجّل دخولك لمتابعة إعلاناتك ومشترياتك.</p>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label data-ar="البريد الإلكتروني" data-en="Email Address">البريد الإلكتروني</label>
+                    <div class="input-wrap"><input type="email" required placeholder="example@email.com"><i class="fa-regular fa-envelope"></i></div>
+                </div>
+                <div class="form-group">
+                    <label data-ar="كلمة المرور" data-en="Password">كلمة المرور</label>
+                    <div class="input-wrap"><input type="password" required placeholder="••••••••"><i class="fa-solid fa-lock"></i></div>
+                </div>
+                <div class="form-extra">
+                    <label class="form-check"><input type="checkbox"> <span data-ar="تذكرني" data-en="Remember me">تذكرني</span></label>
+                    <a href="#" data-ar="نسيت كلمة المرور؟" data-en="Forgot password?">نسيت كلمة المرور؟</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block"><span data-ar="تسجيل الدخول" data-en="Sign In">تسجيل الدخول</span></button>
+            </form>
+            <div class="form-divider"><span data-ar="أو" data-en="or">أو</span></div>
+            <div class="social-login">
+                <button type="button"><i class="fa-brands fa-google"></i> Google</button>
+                <button type="button"><i class="fa-brands fa-apple"></i> Apple</button>
+            </div>
+            <p class="form-footer-note"><span data-ar="ليس لديك حساب؟" data-en="Don't have an account?">ليس لديك حساب؟</span> <a href="register.html" data-ar="إنشاء حساب جديد" data-en="Create an account">إنشاء حساب جديد</a></p>
+        </div>
+    </section>
+    </main>
+    <!-- ===== التذييل الرئيسي ===== -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo"><i class="fa-solid fa-mosque"></i> سوق الكويت القديم</a>
+                    <p data-ar="وجهتك الأولى لبيع وشراء المقتنيات والتحف الكويتية التراثية الأصيلة، نحافظ على إرثنا ونربط جامعي التحف بمصادر موثوقة." data-en="Your first destination to buy and sell authentic Kuwaiti heritage antiques, preserving our legacy and connecting collectors with trusted sources.">وجهتك الأولى لبيع وشراء المقتنيات والتحف الكويتية التراثية الأصيلة، نحافظ على إرثنا ونربط جامعي التحف بمصادر موثوقة.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Snapchat"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+                    <ul>
+                        <li><a href="products.html" data-ar="جميع المنتجات" data-en="All Products">جميع المنتجات</a></li>
+                        <li><a href="categories.html" data-ar="الأقسام" data-en="Categories">الأقسام</a></li>
+                        <li><a href="add-listing.html" data-ar="أضف إعلانك" data-en="Post an Ad">أضف إعلانك</a></li>
+                        <li><a href="about.html" data-ar="من نحن" data-en="About Us">من نحن</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-ar="خدمة العملاء" data-en="Customer Service">خدمة العملاء</h4>
+                    <ul>
+                        <li><a href="contact.html" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a></li>
+                        <li><a href="privacy.html" data-ar="سياسة الخصوصية" data-en="Privacy Policy">سياسة الخصوصية</a></li>
+                        <li><a href="terms.html" data-ar="الشروط والأحكام" data-en="Terms & Conditions">الشروط والأحكام</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 data-ar="النشرة البريدية" data-en="Newsletter">النشرة البريدية</h4>
+                    <p data-ar="اشترك ليصلك كل جديد عن القطع التراثية النادرة." data-en="Subscribe to get updates on rare heritage pieces.">اشترك ليصلك كل جديد عن القطع التراثية النادرة.</p>
+                    <form class="footer-newsletter" onsubmit="event.preventDefault(); showToast(currentLang==='ar' ? 'تم الاشتراك بنجاح' : 'Subscribed successfully', 'success'); this.reset();">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2024 <span data-ar="سوق الكويت القديم" data-en="Old Kuwait Market">سوق الكويت القديم</span>. <span data-ar="جميع الحقوق محفوظة." data-en="All rights reserved.">جميع الحقوق محفوظة.</span></span>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html" data-ar="الخصوصية" data-en="Privacy">الخصوصية</a>
+                    <a href="terms.html" data-ar="الشروط" data-en="Terms">الشروط</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== زر الرجوع للأعلى ===== -->
+    <button class="back-to-top" aria-label="الرجوع للأعلى"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <!-- ===== ودجت الدردشة (واجهة فقط) ===== -->
+    <div class="chat-widget">
+        <button class="chat-toggle-btn" aria-label="الدردشة"><i class="fa-solid fa-comment-dots"></i></button>
+        <div class="chat-window">
+            <div class="chat-header">
+                <img src="https://placehold.co/100x100/C6952C/FDF8EE?text=بائع&font=tajawal" alt="بائع">
+                <div>
+                    <strong style="display:block; font-size:.85rem;">أحمد البدر</strong>
+                    <span style="font-size:.7rem; opacity:.8;">بائع موثّق</span>
+                </div>
+            </div>
+            <div class="chat-body">
+                <div class="chat-msg received">مرحبًا! كيف أقدر أساعدك بخصوص هذه القطعة التراثية؟</div>
+                <div class="chat-msg sent">هل القطعة لا تزال متوفرة؟</div>
+                <div class="chat-msg received">نعم متوفرة، ويمكن الاستلام أو التوصيل داخل الكويت.</div>
+            </div>
+            <div class="chat-footer">
+                <input type="text" placeholder="اكتب رسالتك...">
+                <button class="chat-send" aria-label="إرسال"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== حاوية الإشعارات ===== -->
+    <div id="toast-container"></div>
+
+    <script src="assets/js/products-data.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
